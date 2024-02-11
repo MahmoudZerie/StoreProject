@@ -3,9 +3,9 @@ import { v4 as uuid } from "uuid";
 export const productList: IProduct[] = [
   {
     id: uuid(),
-    title: "2022 BMW M4:Nomine",  
+    title: "2022 BMW M4",  
     description:
-      "As luxury T-Shirt is just as distinctive and can be trimmed with premium materials like Nappa leather and carbon fiber.BMW, a German luxury automaker, is renowned for its precision engineering, sophisticated design, and a rich history dating back to its origins as a manufacturer of aircraft engines",
+    "The BMW M4 epitomizes precision engineering  exhilarating , marrying sleek design with raw power. Its turbocharged engine and dynamic handling make every drive adrenaline-fueled experience.",
     imageURL:
     "https://images.unsplash.com/photo-1597446663490-a45479fcb8a4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     price: "125000",
@@ -62,7 +62,7 @@ export const productList: IProduct[] = [
     id: uuid(),
     title: "Casual Men Clothes",
     description:
-      "As luxury T-Shirt is just as distinctive and can be trimmed with premium materials like Nappa leather and carbon fiber.",
+    "Casual men's clothing combines comfort with style, offering versatile options for everyday wear. From relaxed jeans and cozy sweaters to effortlessly cool t-shirts and sneakers, it's all about effortless elegance for any occasion",
     imageURL:
 	"https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 	price: "1500",
@@ -114,9 +114,9 @@ export const productList: IProduct[] = [
   },
   {
     id: uuid(),
-    title: "Chevrolet Cmaro. 2021",
+    title: "Chevrolet Cmaro:2021",
     description:
-      "As luxury brands go, and South Koreas Genesis is still in its infancy, having sold its first cars (as an independent Hyundai spinoff), the G80 and G90 sedans, for the 2017 model year. Despite its relative youth, Genesis has had a string of successes: We named the automaker’s G70 sports sedan our Best of 2019 award winner, and its GV80 mid-size SUV was a nominee last year for our Best of the Year award. New for 2022, the GV70 compact luxury SUV impresses on a number of fronts. Sleek exterior styling bridges the gap between a traditional SUV and the coupelike SUV look that’s increasingly popular among luxury marques. The cabin is just as distinctive and can be trimmed with premium materials like Nappa leather and carbon fiber.",
+    "The 2021 Chevrolet Camaro exudes classic American muscle with modern performance upgrades, boasting powerful engine options and sharp handling. Its iconic design and advanced technology ensure an exhilarating driving experience that pays homage to its legendary heritage.",
     imageURL:
       "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     price: "135000",

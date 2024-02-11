@@ -13,6 +13,7 @@ import Select from "./components/UI/Select";
 import { ProductName } from "./types";
 import toast,{Toaster} from "react-hot-toast";
 import { NavLink } from "react-router-dom";
+import Introduction from "./components/Introduction";
 const App = () => {
   const defaultProductObj={
     title:"",
@@ -174,9 +175,10 @@ const renderFormInputList=formInputsList.map(input=>
 
   return (  
     <div className="container">
+       <Introduction />
       <div className="flex justify-between ">
-      <NavLink to={"/"} className={"w-full items-center bg-slate-500 rounded-md"}><Button >Log Out</Button></NavLink>
-      <Button className="p-2 bg-blue-700 w-full hover:bg-blue-600" onClick={openModal}>Add</Button>
+      <NavLink to={"/"} className={"w-full items-center bg-slate-500 rounded-md p-2"}><Button >Log Out</Button></NavLink>
+      <Button className="p-2 bg-green-600 w-full hover:bg-green-400" onClick={openModal}>Add Product</Button>
       </div>
       <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 m-5 gap-2 md:gap-4 p-2 rounded-md">
         {renderProductList}
