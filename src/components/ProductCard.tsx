@@ -32,7 +32,7 @@ const ProductCard=({product,setProductToEdit,openEditModal,idx,setProductToEditI
 
 	return (
 		<div className="max-w-sm md:max-w-lg mx-auto md:mx-0 border rounded-md p-3 flex flex-col">
-			<Image imgeUrl={imageURL} alt={product.category.name} className="rounded-md mb-2 w-full  lg:object-cover"/>
+			<Image imgeUrl={imageURL} alt={product.category.name} className="rounded-md mb-2 w-full h-64 overflow-hidden lg:object-cover"/>
 			<h3 className="text-lg font-semibold">{title}</h3>
 			<p className="text-gray-400 ">{txtSlicer(description,100)}</p>
 			

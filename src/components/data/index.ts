@@ -3,7 +3,7 @@ import { v4 as uuid } from "uuid";
 export const productList: IProduct[] = [
   {
     id: uuid(),
-    title: "2022 BMW M4",  
+    title: "2022 BMW",  
     description:
     "The BMW M4 epitomizes precision engineering  exhilarating , marrying sleek design with raw power. Its turbocharged engine and dynamic handling make every drive adrenaline-fueled experience.",
     imageURL:

@@ -78,7 +78,7 @@ const App = () => {
       style:{
         backgroundColor:"#242424",
          colorScheme: "light dark",
-         color: "rgba(255, 255, 255, 0.87)",
+         color: "rgba(255, 10, 10, 0.87)",
        
       }
     })
@@ -126,6 +126,7 @@ const renderFormInputList=formInputsList.map(input=>
   const renderProductEditWithErrorMsg=(id:string,label:string,name:ProductName)=>{
     return(
       <div className="flex flex-col" >
+        <input></input>
       <label htmlFor={"title"} className="text-white mb-2 text-sm font-medium">{label}</label>
       <Input type="text" id={id} name={name} value={productToEdit[name]} onChange={onChangeEditHandler}/>
       <ErrorMessage msg={errors[name]}/>
@@ -152,6 +153,15 @@ const renderFormInputList=formInputsList.map(input=>
     setProduct(defaultProductObj);
     setTempColors([]);
     closeModal();
+    toast("Product has been Added",{
+      icon:'🚩',
+      style:{
+        backgroundColor:"#163020",
+         colorScheme: "light dark",
+         color: "rgba(255, 255, 255, 0.87)",
+       
+      }
+    })
   } 
  
   const submitEditHandler=(event: FormEvent<HTMLFormElement>): void=>{
@@ -171,6 +181,15 @@ const renderFormInputList=formInputsList.map(input=>
     setProductToEdit(defaultProductObj);
     setTempEditColors([]);
     closeEditModal();
+    toast("Product has been Edited",{
+      icon:'✔️',
+      style:{
+        backgroundColor:"#242424",
+         colorScheme: "light dark",
+         color: "rgba(80, 141, 105, 1)",
+       
+      }
+    })
   } 
 
   return (  

@@ -46,12 +46,12 @@ import { useNavigate } from "react-router-dom";
                     {/* Logo */}
                     <div className="text-center">
                       <img
-                        className="mx-auto w-48"
-                        src="https://cdn.pixabay.com/photo/2017/08/22/22/11/monogram-2670684_1280.png"
+                        className="mx-auto w-40"
+                        src="public\MZZ.svg"
                         alt="logo"
                       />
                         <h4 className="mb-6 mt-5 pb-1 text-2xl font-semibold text-center text-neutral-800 dark:text-neutral-200 border-b-2 border-neutral-500">
-  						         Welcom In The MZ Company
+  						         Welcom In MZ Company
 						           </h4>
                     </div>
 
