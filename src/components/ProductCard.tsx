@@ -3,6 +3,7 @@ import Button from "./UI/Button";
 import CircleColor from "./CircleColor";
 import { IProduct } from "./interfaces";
 import { numberWithCommas, txtSlicer } from "../utils/functions";
+import { memo } from "react";
 interface IProps{
 product:IProduct
 setProductToEdit:(product:IProduct)=>void;
@@ -53,4 +54,4 @@ const ProductCard=({product,setProductToEdit,openEditModal,idx,setProductToEditI
 		</div>
 	)
 }
-export default ProductCard;
+export default memo(ProductCard);
